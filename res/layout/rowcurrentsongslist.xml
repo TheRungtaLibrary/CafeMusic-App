@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:layout_width="250.0dip" android:layout_height="250.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/AlbumArt" android:layout_width="250.0dip" android:layout_height="250.0dip" android:scaleType="fitXY" android:layout_weight="1.0" />
+    <TextView android:textSize="16.0dip" android:textColor="@color/White" android:id="@id/songNameTV" android:layout_width="190.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:singleLine="true" android:layout_alignTop="@id/AlbumArt" android:marqueeRepeatLimit="marquee_forever" />
+    <TextView android:textSize="14.0dip" android:textColor="@color/White" android:id="@id/songArtistTV" android:layout_width="190.0dip" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:singleLine="true" android:layout_alignBottom="@id/AlbumArt" android:marqueeRepeatLimit="marquee_forever" />
+</RelativeLayout>

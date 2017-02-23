@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. 75%-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<dimen name="radio_button_conner_radius">5dp</dimen>
+    <integer name="drawer_min_fling_velocity">200</integer>
+    <dimen name="drawer_shadow_length">24dp</dimen>
+    <dimen name="prev_lockscreen_width">45dp</dimen>
+    <dimen name="prev_lockscreen_height">45dp</dimen>
+    <dimen name="next_lockscreen_width">45dp</dimen>
+    <dimen name="next_lockscreen_height">45dp</dimen>
+    <dimen name="play_lockscreen_width">45dp</dimen>
+    <dimen name="play_lockscreen_height">45dp</dimen>
+    <dimen name="TextSize_LockscreenSong">75sp</dimen>
+    <dimen name="TextSize_LocksreenMinutes2">187sp</dimen>
+    <dimen name="TextSize_LocksreenArtist">60sp</dimen>
+    <dimen name="TextSize_LocksreenColon">75sp</dimen>
+    <dimen name="TextSize_LocksreenSeconds">12sp</dimen>
+    <dimen name="TextSize_SongNameTV">13sp</dimen>
+    <dimen name="TextSize_SongArtistTV">10sp</dimen>
+    <dimen name="TextSize_button1">22sp</dimen>
+    <dimen name="TextSize_button2">22sp</dimen>
+    <dimen name="TextSize_ArtistNameView">12sp</dimen>
+</resources>

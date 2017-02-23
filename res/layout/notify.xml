@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/MainContainer"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+    android:id="@+id/LeftPanel"
+    android:orientation="vertical"
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"
+    android:layout_weight="0.1"	
+    android:background="@color/Orange"
+    android:gravity="center" 
+    >
+    	<ImageView
+	    	    android:id="@+id/prevBtn"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/prev_logo"
+	    	    />
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/TextPanel"
+    android:orientation="vertical"
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"	
+    android:layout_weight="0.8"
+    android:gravity="center"
+    android:background="@color/White"
+    >
+	    <RelativeLayout 
+	        android:id="@+id/TextPanel1"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"	
+		    android:background="@android:color/transparent"
+	    >
+	    	<TextView 
+	    	    android:id="@+id/notifySong"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="30dip"
+	    	    android:gravity="center"
+	    	    android:paddingLeft="2dip"
+	    	    android:paddingRight="2dip"
+	    	    android:textSize="@dimen/TextSize_NotifySong"
+	    	    android:textColor="@color/black"
+	    	    android:background="@android:color/transparent"
+	    	    android:singleLine="true"
+	    	    android:ellipsize="marquee"
+	    	    android:marqueeRepeatLimit="marquee_forever"
+	    	    android:scrollHorizontally="true"
+	    	    />
+	    	
+	    	<ImageView
+	    	    android:id="@+id/divide"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="2dip"
+	    	    android:orientation="vertical"
+	    	    android:src="@drawable/divider_background"
+	    	    android:layout_below="@id/notifySong"
+	    	    />
+
+	    	<RelativeLayout
+	    	    android:id="@+id/TextPanel2"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:layout_below="@id/divide">
+
+	    	    <LinearLayout
+	    	    android:id="@+id/TextPanel2"
+	    	    android:layout_width="fill_parent"
+	    	    android:layout_height="fill_parent"
+	    	    android:orientation="horizontal">
+		    	   
+		    	   <ImageView 
+		    	       android:id="@+id/repeatBtn"
+					    android:layout_width="0dip"
+					    android:layout_height="wrap_content"						   
+					    android:src="@drawable/repeat_logo"
+					    android:layout_weight="0.33"
+					    android:layout_gravity="top"
+					    android:layout_marginTop="4dip"/>
+		    	       
+		    	       
+		    	   <ImageView
+		    	    android:id="@+id/divide2"
+		    	    android:layout_width="2dip"
+		    	    android:layout_height="fill_parent"
+		    	    android:background="#ccd0d3"
+		    	    android:layout_marginTop="3dip"
+		    	    android:layout_marginBottom="3dip"		    	    		    	    
+		    	    />    
+		    	       
+				  <ImageView 
+		    	       android:id="@+id/playBtn"
+					    android:layout_width="0dip"
+					    android:layout_height="wrap_content"						    
+					    android:src="@drawable/play_logo"
+					    android:layout_weight="0.33"
+					    android:layout_gravity="top"
+					    android:layout_marginTop="4dip"/>
+		    	       
+		    	  <ImageView
+		    	    android:id="@+id/divide3"
+		    	    android:layout_width="2dip"
+		    	    android:layout_height="fill_parent"
+		    	    android:background="#ccd0d3"
+		    	    android:layout_marginTop="3dip"
+		    	    android:layout_marginBottom="3dip"		    	    		    	    
+		    	    />
+		    	       
+		    	    <ImageView 
+		    	       android:id="@+id/shareBtn"
+					    android:layout_width="0dip"
+					    android:layout_height="wrap_content"						    
+					    android:src="@drawable/share_logo"
+					    android:layout_weight="0.33"
+					    android:layout_gravity="top"
+					    android:layout_marginTop="4dip"/>
+		    	       
+		    	       
+		    	    <ImageView
+		    	    android:id="@+id/divide4"
+		    	    android:layout_width="2dip"
+		    	    android:layout_height="fill_parent"
+		    	    android:background="#ccd0d3"
+		    	    android:layout_marginTop="3dip"
+		    	    android:layout_marginBottom="3dip"		    	    		    	    
+		    	    />
+		    	       
+		    	    <ImageView 
+		    	       android:id="@+id/closeBtn"
+					    android:layout_width="0dip"
+					    android:layout_height="wrap_content"						    
+					    android:src="@drawable/close_logo"
+					    android:layout_weight="0.33"
+					    android:layout_gravity="top"
+					    android:layout_marginTop="4dip"
+					    />
+		    	       
+		    	       
+	    	    </LinearLayout>
+	    	</RelativeLayout>
+	   	</RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+    android:id="@+id/RightPanel"
+    android:orientation="vertical"
+    android:layout_width="0dip"
+    android:layout_height="fill_parent"	
+    android:layout_weight="0.1"
+    android:background="@color/Orange"
+    android:gravity="center"
+    >
+    	<ImageView
+	    	    android:id="@+id/nextBtn"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/next_logo"
+	   	/>
+    </LinearLayout>	
+</LinearLayout>

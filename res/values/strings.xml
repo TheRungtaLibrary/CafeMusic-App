@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">cafe music</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnPlayPause">play/pause</string>
+    <string name="btnPrev">previous</string>
+    <string name="btnNext">next</string>
+    <string name="search">Search</string>
+    <string name="preset_value">Choose a Preset</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="search_label">Music Search</string>
+    <string name="search_hint">Search Artist or Album</string>
+    <string name="Record">Record</string>
+    <string name="Play">Play</string>
+    <string name="desc">Desc</string>
+    <string name="cafe">cafe music</string>
+    <string name="title">Edit Title</string>
+    <string name="artist">Edit Artist</string>
+    <string name="album">Edit Album</string>
+    <string name="delConfirm">Confirm Delete</string>
+    
+    <!-- Licensing Info -->
+    <string name="Third_Party">Free Softwares Used</string>
+    <string name="Gama_Wheel">gama_wheel_v1.0.jar</string>
+    <string name="Gama_License"><![CDATA[\nGAMA - Open Source Mobile UI Component Library
+    	\nCopyright (c) 2012 Digital Aria Inc.
+    	\nlicensing@digitalaria.com
+    	\nhttp://developer.digitalaria.com/gama/license]]>
+    </string>
+    <string name="Mp3agic_Jar">mp3agic-0.8.1.jar</string>
+    <string name="Mp3agic_License"><![CDATA[\nCopyright (c) 2006-2013 Michael Patricios \n Link - http://github.com/mpatric/mp3agic]]></string>
+    <string name="JAudioTagger_Jar">JAudio Tagger</string>
+    <string name="JAudioTagger_License"><![CDATA[\nVersion: 2.0.4
+		\nCopyright JThink Ltd
+		\n2004,2005,2006,2007 All rights resrved. 
+		\nAll trademarks acknowledged]]>
+	</string>
+    <string name="Circular_SeekBar">CircularSeekBar</string>
+    <string name="CircularSeekBar_License"><![CDATA[\nCopyright 2013 Matt Joseph \nLicensed under the Apache License, Version 2.0]]></string>
+    <string name="LAME">LAME</string>
+    <string name="LAME_License"><![CDATA[\nsource code licensed under the LGPL Copyright (c) 2011-2012 Yuichi Hirano]]></string>
+    <string name="Jakarta_Regexp">jakarta-regexp-1.5.jar</string>
+    <string name="JakartaRegexp_License"><![CDATA[\nLicensed under the Apache License, Version 2.0]]></string>
+    <string name="MyID3_Android">MyID3_for_Android.jar</string>
+    <string name="MyID3_License"><![CDATA[\nLicensed under the Apache License, Version 2.0]]></string>
+    <string name="Images"><![CDATA[\nequalizer3,music247]]></string>
+    <string name="Images_License"><![CDATA[\nIcons made by Freepik from www.flaticon.com is licensed by Creative Commons BY 3.0]]></string>
+    <string name="Song"><![CDATA[\nHallon.mp3]]></string>
+    <string name="Song_License"><![CDATA[\nIcons made by Freepik from www.flaticon.com is licensed by Creative Commons BY 3.0]]></string>
+    
+</resources>

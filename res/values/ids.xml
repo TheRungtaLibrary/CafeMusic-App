@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="AudioModArea">false</item>
+    <item type="id" name="VisualEqualArea">false</item>
+    <item type="id" name="BassLayout">false</item>
+    <item type="id" name="ParentLayout">false</item>
+    <item type="id" name="songslistview">false</item>
+    <item type="id" name="SongInfoArea">false</item>
+    <item type="id" name="FirstContainer">false</item>
+    <item type="id" name="FlipAreaTwo">false</item>
+    <item type="id" name="AlbumArtView">false</item>
+    <item type="id" name="viewEqualizer">false</item>
+    <item type="id" name="SecondContainer">false</item>
+    <item type="id" name="SecondContainerChild1">false</item>
+    <item type="id" name="SongNameView">false</item>
+    <item type="id" name="ArtistNameView">false</item>
+    <item type="id" name="DurationView">false</item>
+    <item type="id" name="SecondContainerChild2">false</item>
+    <item type="id" name="wheel">false</item>
+    <item type="id" name="SlidingDrawer">false</item>
+    <item type="id" name="ContentLayout">false</item>
+    <item type="id" name="SlideButton">false</item>
+    <item type="id" name="AlbumArt">false</item>
+    <item type="id" name="songNameTV">false</item>
+    <item type="id" name="songArtistTV">false</item>
+    <item type="id" name="songDurationTV">false</item>
+    <item type="id" name="MinsView">false</item>
+    <item type="id" name="SecView">false</item>
+    <item type="id" name="circularSeekBar1">false</item>
+</resources>

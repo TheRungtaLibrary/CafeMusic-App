@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CircularSeekBar">
+        <attr name="progress" format="integer"></attr>
+        <attr name="max" format="integer"></attr>
+        <attr name="move_outside_circle" format="boolean"></attr>
+        <attr name="maintain_equal_circle" format="boolean"></attr>
+        <attr name="use_custom_radii" format="boolean"></attr>
+        <attr name="circle_x_radius" format="float" />
+        <attr name="circle_y_radius" format="float" />
+        <attr name="circle_stroke_width" format="float" />
+        <attr name="pointer_radius" format="float" />
+        <attr name="pointer_halo_width" format="float" />
+        <attr name="pointer_halo_border_width" format="float"></attr>
+        <attr name="circle_color" format="string"></attr>
+        <attr name="circle_progress_color" format="string"></attr>
+        <attr name="pointer_color" format="string"></attr>
+        <attr name="pointer_halo_color" format="string"></attr>
+        <attr name="pointer_alpha_ontouch" format="integer"></attr>
+        <attr name="start_angle" format="float"></attr>
+        <attr name="end_angle" format="float"></attr>
+        <attr name="circle_fill" format="string"></attr>
+    </declare-styleable>
+    
+    <!-- Individual drawer attributes -->
+    <declare-styleable name="Drawer">
+        <!-- Orientation of drawer -->
+        <attr name="type">
+            <enum name="left" value="1" />
+            <enum name="right" value="2" />
+            <enum name="top" value="3" />
+            <enum name="bottom" value="4" />
+        </attr>
+        <!--Drawer shadow drawable -->
+        <attr name="shadow" format="reference"/>
+        <!-- handle view id -->
+        <attr name="handleId" format="reference"/>
+        <!-- Content view id -->
+        <attr name="contentId" format="reference"/>
+        <!-- Detect edge drags -->
+        <attr name="edgeDraggable" format="boolean"/>
+    </declare-styleable>
+
+    <!-- Drawer layout attributes -->
+    <declare-styleable name="DrawerLayout">
+        <!--Color to shade the background when drawers are open -->
+        <attr name="scrim_color" format="color"/>
+    </declare-styleable>
+
+</resources>

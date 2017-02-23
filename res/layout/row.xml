@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	>
+  	<LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+  	android:id="@+id/TextViewsParent"
+  	>
+    <TextView 
+        android:textSize="@dimen/TextSize_SongNameTV" 
+        android:textColor="@color/white" 
+        android:ellipsize="marquee" 
+        android:id="@id/songNameTV" 
+        android:paddingLeft="12.0sp" 
+        android:paddingRight="12.0sp" 
+        android:fadingEdge="horizontal" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:scrollHorizontally="true" 
+        android:singleLine="true" 
+        android:layout_weight="1.0" 
+        android:marqueeRepeatLimit="marquee_forever"
+     />
+    <LinearLayout 
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="5.0dip" 
+        android:layout_below="@id/songNameTV"
+    >
+        <TextView 
+            android:textSize="@dimen/TextSize_SongArtistTV" 
+            android:textColor="@color/white" 
+            android:id="@id/songArtistTV" 
+            android:paddingLeft="12.0sp" 
+            android:layout_width="0.0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="3.0" 
+        />
+        <TextView 
+            android:textSize="13.0sp" 
+            android:textColor="@color/WoolenRed" 
+            android:id="@id/songDurationTV" 
+            android:paddingLeft="22.0sp" 
+            android:layout_width="0.0dip" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1.0" 
+        />
+    </LinearLayout>
+    </LinearLayout>
+    
+ <!--    <LinearLayout 
+        android:orientation="horizontal" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:layout_marginTop="5.0dip" 
+		android:id="@+id/DeleteItemParent"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+    >
+        <TextView 
+            android:textSize="@dimen/TextSize_button1" 
+            android:textColor="@color/Orange" 
+            android:id="@+id/ConfirmDeleteTV" 
+            android:text="@string/delConfirm"
+            android:paddingLeft="12.0sp" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+        />
+        
+        <ImageView
+	    	    android:id="@+id/cancelDelBtn"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/cancel_del_logo"
+	    	    android:layout_marginLeft="10dip"
+	   	/>
+        
+        <ImageView
+	    	    android:id="@+id/confirmDelBtn"
+	    	    android:layout_width="wrap_content"
+	    	    android:layout_height="wrap_content"
+	    	    android:src="@drawable/cancel_del_logo"
+	    	    android:layout_marginLeft="10dip"
+	   	/>
+        
+    </LinearLayout> -->
+</RelativeLayout>

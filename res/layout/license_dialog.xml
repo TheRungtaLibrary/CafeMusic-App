@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:id="@+id/LicenseDialogParent"
+   android:layout_width="300dip"
+   android:layout_height="300dip"
+   android:orientation="vertical"
+   android:alpha="0.5"
+>
+	<ScrollView 
+	    
+	   android:id="@+id/LicenseDialogScroll"
+	   android:layout_width="match_parent"
+	   android:layout_height="0dip"
+	   android:layout_weight="0.8"
+	   android:orientation="vertical"	   
+	>
+	
+		<LinearLayout
+		   android:id="@+id/LicenseDialog"
+		   android:layout_width="match_parent"
+		   android:layout_height="wrap_content"
+		   android:orientation="vertical"
+		>
+		
+		        <LinearLayout 
+				   android:id="@+id/Layout_Title"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"   
+				   android:layout_marginTop="15dip" 
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Title"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/Third_Party"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 />
+		         
+		        </LinearLayout>    
+		        
+		        <LinearLayout 
+				   android:id="@+id/Layout_One"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"   
+				   android:layout_marginTop="15dip" 
+				>
+				
+		         <TextView
+		           android:id="@+id/File_One"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/Gama_Wheel"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_One"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/Gama_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+				   android:id="@+id/Layout_Second"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Second"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/Mp3agic_Jar"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Second"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/Mp3agic_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		        
+		       
+		        <LinearLayout 
+				   android:id="@+id/Layout_Third"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Third"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/JAudioTagger_Jar"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Third"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/JAudioTagger_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		        
+		        
+		        <LinearLayout 
+				   android:id="@+id/Layout_Fourth"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Fourth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/Jakarta_Regexp"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Fourth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/JakartaRegexp_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		         
+		        <LinearLayout 
+				   android:id="@+id/Layout_Fifth"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Fifth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/MyID3_Android"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Fifth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/MyID3_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		        
+		        
+		        <LinearLayout 
+				   android:id="@+id/Layout_Sixth"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Sixth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/Circular_SeekBar"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Sixth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/CircularSeekBar_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+				   android:id="@+id/Layout_Seventh"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Seventh"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/LAME"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Seventh"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/LAME_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+				   android:id="@+id/Layout_Eighth"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Eighth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/Images"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Eighth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/Images_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		        
+		        <LinearLayout 
+				   android:id="@+id/Layout_Ninth"
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:orientation="vertical"		
+				   android:gravity="center"  
+				   android:layout_marginTop="15dip"  
+				>
+				
+		         <TextView
+		           android:id="@+id/File_Ninth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:singleLine="true"
+		           android:textColor="@color/Orange"
+		           android:layout_marginTop="10dip"
+		           android:text="@string/Song"       
+		           android:textSize="@dimen/TextSize_SongNameTV"     
+		   		 /> 
+		          
+		         <TextView
+		           android:id="@+id/License_Ninth"
+		           android:layout_width="wrap_content"
+		           android:layout_height="wrap_content"
+		           android:gravity="center"
+		           android:textColor="@color/White"
+		           android:layout_marginTop="10dip" 
+		           android:text="@string/Song_License"       
+		           android:textSize="@dimen/TextSize_ArtistNameView" 
+		   		/>
+		         
+		        </LinearLayout>
+		    
+		</LinearLayout>
+	
+	</ScrollView>
+	
+	<LinearLayout
+	   	android:id="@+id/random1"
+	   	android:layout_width="match_parent"
+	   	android:layout_height="0dip"
+	   	android:layout_weight="0.05"
+	   	android:orientation="vertical"
+	/>
+	
+	<ImageView
+   	    android:id="@+id/btnCloseDialog"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="0dip"
+	   	android:layout_weight="0.1"
+   	    android:orientation="vertical"
+   	    android:src="@drawable/close_dialog_logo"
+   	/>
+	
+	<LinearLayout
+	   	android:id="@+id/random2"
+	   	android:layout_width="match_parent"
+	   	android:layout_height="0dip"
+	   	android:layout_weight="0.05"
+	   	android:orientation="vertical"
+	/>
+
+</LinearLayout>

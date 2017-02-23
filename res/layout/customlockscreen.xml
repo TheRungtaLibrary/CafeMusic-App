@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    android:id="@+id/LocksreenParent"
+    android:alpha="0.9"
+     >
+     
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/Black"
+    android:id="@+id/LocksreenContainer"
+    android:alpha="0.9"
+    >
+
+	<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.2"
+    android:orientation="vertical"
+    >
+    	<TextView 
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Cafe Music"
+    		android:singleLine="true"
+    		android:textColor="@color/Orange"
+    		android:textSize="@dimen/TextSize_LockscreenSong"
+    		android:textAllCaps="true"
+    		android:id="@+id/LocksreenSong"
+    		android:lines="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+    	    />
+    </LinearLayout>
+    
+	<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.6"
+    android:orientation="horizontal"
+    >   	
+    	<TextView 
+    	    android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:singleLine="true"
+    		android:text="00"
+    		android:textColor="@color/Orange"
+    		android:textSize="@dimen/TextSize_LocksreenMinutes2"
+    		android:id="@+id/LocksreenMinutes2"
+    		android:lines="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"           
+    	/> 
+    	
+    </LinearLayout>
+    
+	<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.2"
+    android:orientation="vertical"
+    >
+    	<TextView 
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text="Cafe Music"
+    		android:textColor="@color/White"
+    		android:textSize="@dimen/TextSize_LocksreenArtist"
+    		android:singleLine="true"
+    		android:gravity="fill"
+    		android:id="@+id/LocksreenArtist"
+    		android:lines="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"  
+    	    />
+    </LinearLayout>
+
+</LinearLayout>
+
+        <TextView 
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:text=":"
+    		android:textColor="@color/White"
+    		android:textSize="@dimen/TextSize_LocksreenColon"
+    		android:gravity="center"
+    		android:id="@+id/LocksreenColon"
+    		android:layout_alignParentLeft="true"
+    		android:layout_alignParentBottom="true"
+            android:layout_marginBottom="125dip"
+    	    />
+
+    	<TextView
+    	    android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:singleLine="true"
+    		android:text="00"
+    		android:textColor="@color/White"
+    		android:textSize="@dimen/TextSize_LocksreenSeconds"
+    		android:gravity="center"
+    		android:id="@+id/LocksreenSeconds"
+    		android:lines="1"
+            android:ellipsize="marquee"
+            android:fadingEdge="horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:layout_toRightOf="@id/LocksreenColon"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="125dip"
+    	    />
+		<ImageView
+	    	    android:id="@+id/nextBtnLockscreen"
+	    	    android:layout_width="@dimen/next_lockscreen_width"
+	    	    android:layout_height="@dimen/next_lockscreen_height"
+	    	    android:background="@drawable/next_btn_selector"
+	    	    android:layout_alignParentRight="true"
+            	android:layout_alignParentBottom="true"
+            	android:layout_marginBottom="125dip"
+            	android:layout_marginLeft="10dip"
+	   	/>
+	    <ToggleButton
+	    	    android:id="@+id/playPauseBtnLockscreen"
+	    	    android:layout_width="@dimen/play_lockscreen_width"
+	    	    android:layout_height="@dimen/play_lockscreen_height"
+	    	    android:background="@drawable/play_btn_selector"
+	    	    android:layout_toLeftOf="@id/nextBtnLockscreen"
+            	android:layout_alignParentBottom="true" 
+           	 	android:layout_marginBottom="125dip"
+           	 	android:layout_marginLeft="10dip"
+	   	/>
+				<ImageView
+	    	    android:id="@+id/prevBtnLockscreen"
+	    	    android:layout_width="@dimen/prev_lockscreen_width"
+	    	    android:layout_height="@dimen/prev_lockscreen_height"
+	    	    android:background="@drawable/prev_btn_selector"
+	    	    android:layout_toLeftOf="@id/playPauseBtnLockscreen"
+            	android:layout_alignParentBottom="true"
+            	android:layout_marginBottom="125dip"
+            	android:layout_marginLeft="10dip"
+	   	/>
+
+</RelativeLayout>
